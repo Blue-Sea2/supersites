@@ -1,14 +1,14 @@
 ﻿a {
-    background-color: #333333;
-    color: white;
+    background-color: #666666;
+    color: #333333;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
 }
 a:hover {
-    background-color: #666666;
-    color: white;
+    background-color: #333333;
+    color: #666666;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
