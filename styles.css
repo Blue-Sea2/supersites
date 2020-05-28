@@ -1,5 +1,13 @@
 ﻿a {
-    background-color: #f44336;
+    background-color: #333333;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover {
+    background-color: #666666;
     color: white;
     padding: 14px 25px;
     text-align: center;
