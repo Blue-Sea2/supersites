@@ -5,7 +5,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    transition: width 2s;
+    transition: width 5s;
 }
     a:hover {
         background-color: #333333;
