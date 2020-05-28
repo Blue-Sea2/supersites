@@ -1,6 +1,6 @@
 ﻿a {
-    background-color: #666666;
-    color: #222222;
+    background-color: #f6f6f6;
+    color: #101010;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
@@ -8,8 +8,8 @@
     transition: width 5s;
 }
     a:hover {
-        background-color: #333333;
-        color: #555555;
+        background-color: #666666;
+        color: #101010;
         padding: 14px 25px;
         text-align: center;
         text-decoration: none;
