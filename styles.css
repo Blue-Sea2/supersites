@@ -15,8 +15,6 @@
 }
 
 #meme_picture {
-    max-height: 90%;
-    min-height: 400px;
-    /*height:500
-    width:600*/
+    height: 500
+    /*width:600*/
 }
