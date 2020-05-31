@@ -15,7 +15,9 @@
         <div id="meme_picture"><img src="" height="500" width="600"></div>
         <script type="text/javascript">
             function update_text(){
-                
+                var user_text = document.getElementById("user_text");
+                var meme_text = document.getElementById("meme_text");
+                meme_text.innerHTML = user_text.value;
             }
         </script>
 </html>
