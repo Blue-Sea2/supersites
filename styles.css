@@ -18,6 +18,7 @@
     max-height: 90%;
     min-height: 400px;
     max-width: 90%;
+    object-fit: contain;
     /*height:500
     width:600*/
 }
