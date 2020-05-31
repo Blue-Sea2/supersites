@@ -15,5 +15,5 @@
 }
 
 #meme_picture {
-    object-fit: scale-down;
+    border-radius: 25px;
 }
