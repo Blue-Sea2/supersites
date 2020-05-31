@@ -15,5 +15,5 @@
 }
 
 #meme_picture {
-    object-fit: cover;
+    object-fit: scale-down;
 }
