@@ -3,7 +3,7 @@
                 var meme_text = document.getElementById("meme_text");
                 var img = document.querySelector('img');
                 meme_text.innerHTML = user_text.value;
-                meme_text.width == img.width;
+                meme_text.width = 100;
             }
 
             function update_image(){
