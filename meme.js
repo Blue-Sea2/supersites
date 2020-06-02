@@ -8,5 +8,4 @@
                 var img = document.querySelector('img');
                 var file = document.querySelector('input[type=file]').files[0];
                 img.src =  window.URL.createObjectURL(file);
-                document.getElementById("meme_text").width = img.width;
             }
