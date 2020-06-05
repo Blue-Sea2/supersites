@@ -5,6 +5,7 @@ iframe {
 
 .slidecontainer {
   width: 100%;
+  border:100px;
 }
 
 .slider {
