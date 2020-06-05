@@ -3,9 +3,20 @@
     <link rel="stylesheet" href="youtube.css">
   </head>
   <body>
-    <div>
-      <input type="range" min="1" max="200" value="100" class="slider" id="videosize">
+    <div class="slidecontainer">
+      <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+      <p>Value: <span id="demo"></span></p>
     </div>
+
+    <script>
+     var slider = document.getElementById("myRange");
+     var output = document.getElementById("demo");
+     output.innerHTML = slider.value;
+
+     slider.oninput = function() {
+      output.innerHTML = this.value;
+     }
+    </script>
     <iframe width="1191" height="670" src="https://www.youtube.com/embed/Rf3bhTxxD3I" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="1191" height="670" src="https://www.youtube.com/embed/ktQB8uTDZ8I" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="1191" height="670" src="https://www.youtube.com/embed/qiEpogCZTQA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
